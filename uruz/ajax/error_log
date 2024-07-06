@@ -1,0 +1,99 @@
+[03-Mar-2023 17:50:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[24-Mar-2023 16:01:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[24-Mar-2023 16:02:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[24-Mar-2023 16:05:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[24-Mar-2023 16:47:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[24-Mar-2023 17:14:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[24-Mar-2023 17:15:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[24-Mar-2023 17:28:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[06-May-2023 03:37:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(15): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', 'id', '178', 'id')
+#3 /home/quirquin/public_html/uruz/ajax/productos.ajax.php(68): ControladorProductos::ctrMostrarProductos('id', '178', 'id')
+#4 /home/quirquin/public_html/uruz/ajax/productos.ajax.php(99): AjaxProductos->ajaxEditarProducto()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[20-Apr-2024 08:25:29 America/La_Paz] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
+[20-Apr-2024 08:25:30 America/La_Paz] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/quirquin/public_html/uruz/modelos/conexion.php:9
+Stack trace:
+#0 /home/quirquin/public_html/uruz/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'quirquin_quirqu...', 'sis1inf2CEC3')
+#1 /home/quirquin/public_html/uruz/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/quirquin/public_html/uruz/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/quirquin/public_html/uruz/ajax/datatable-productos.ajax.php(124): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/quirquin/public_html/uruz/modelos/conexion.php on line 9
